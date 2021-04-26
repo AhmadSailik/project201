@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Frank+Ruhl+Libre:wght@300&family=Indie+Flower&family=Vollkorn&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+.color {
+    background-image: url(https://images.unsplash.com/photo-1473081556163-2a17de81fc97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+    background-size: cover;
+}
+
+body {
+    width: 80%;
+    position: absolute;
+    left: 10%;
+}
+
+header {
+    height: 50%;
+    padding: 30px 10px;
+    margin-top: 2%;
+    height: 110px;
+    opacity: 0.9;
+}
+
+.he {
+    position: absolute;
+    /* margin-top: 2px; */
+    top: 1.5%;
+    left: 5%;
+    width: 1000px;
+    height: 80px;
+}
+
+.img1 {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.menu {
+    position: relative;
+    margin-top: 12px;
+}
+
+.unorderedList {
+    position: absolute;
+    right: 3%;
+}
+
+.unorderedList li,
+.dropdown {
+    display: inline-block;
+    letter-spacing: 1px;
+    box-shadow: 2px 2px 2px 2px;
+    margin-right: 5px;
+    background-color: hsl(25, 19%, 13%);
+    /* border-right: 1px solid #D2A239; */
+}
+
+.unorderedList li a,
+.dropdown a {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight:bolder;
+    color: #d4c3b8;
+    text-shadow: 1px 1px black;
+    font-size: 22px;
+    display: block;
+    line-height: 30px;
+    
+
+}
+
+.unorderedList li a:hover,
+.dropdown a:hover {
+    background-color: #740202;
+    color: #cfc5bf;
+}
+
+.subContent {
+    position: absolute;
+    top: 30px;
+    right: 340px;
+    display: none;
+    background-color: #CFC5BF;
+    z-index: 1;
+}
+
+.menu li:hover>ul {
+    display: block;
+}
+
+.subContent li {
+    display: list-item;
+    width: 167px;
+}
+
+.subContent li a {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}

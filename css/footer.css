@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Frank+Ruhl+Libre:wght@300&family=Indie+Flower&family=Vollkorn&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #c4b7a783;
+    height: 200px;
+    /* margin-bottom: 1%; */
+}
+
+.contacts {
+    bottom: 1.5%;
+    position: absolute;
+    right: 39.5%;
+}
+
+.img2 {
+    height: 50px;
+    width: 50px;
+}
+
+
+/* main {
+       background-color:hsl(25, 19%, 13%,.6);
+   } */
+
+.copyRights {
+    font-size: larger;
+    font-family: 'Frank Ruhl Libre', serif;
+    position: absolute;
+    bottom: 1%;
+    right: 39.5%;
+}
+
+.brief {
+    width: 30%;
+    font-family: 'Frank Ruhl Libre', serif;
+    text-align: justify;
+    position: absolute;
+    right: 2.5%;
+    bottom: 2%;
+}
+
+.brief p {
+    padding-left: 10px;
+}
+
+.brief p a {
+    text-decoration: none;
+    color: black;
+}
+
+.brief p a:hover {
+    color: #7C747C;
+}
+
+.address {
+    width: 30%;
+    font-family: 'Frank Ruhl Libre', serif;
+    text-align: justify;
+    position: absolute;
+    left: 5%;
+    bottom: 2%;
+}
+
+.address p {
+    padding-top: 7px;
+}
+
+.img2:hover {
+    transform: scale(1.25);
+}
+
+.contacts a {
+    text-decoration: none;
+}
